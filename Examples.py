@@ -33,15 +33,15 @@ elif "0123456789" in web_data:
 else:
     print(not "e-mail nor phone number")
 
-# Example 4: Arithmetic operator (+, -, *, /, //, **, %)
-# a = 10+20
-# b = 100 - 1
-# c = 50 / 7
-# d = 50 // 7
-# e = 10 % 8
-# f = 5 ** 2
-#
-# print(a, b, c, d, e, f, sep="\n")
+# Example 4: Arithmetic operator (+,-,*,/, //, **,%)
+a = 10+20
+b = 100 - 1
+c = 50 / 7
+d = 50 // 7
+e = 10 % 8
+f = 5 ** 2
+
+print(a, b, c, d, e, f, sep="\n")
 
 number = 1 + 2 * 3 / 4.0
 print(number)
